@@ -1,0 +1,19 @@
+zuul:
+  ignored-services: '*'
+  prefix:  /api
+  routes:
+    productservice:  /product/**
+
+keycloak:
+  auth-server-url: http://localhost:8080/auth/
+  realm: testcandidate
+  resource: api-gateway
+  public-client: true
+  confidential-port: 0
+  ssl-required: external
+  cors: true
+  cors-allowed-methods: "*"
+  cors-allowed-headers: "*"
+  principal-attribute: preferred_username
+
+
