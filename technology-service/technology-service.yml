@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/technologydb?serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/technologydb
     username: root
-    password: password
+    password:
   jpa:
     show-sql: true
     jpa:
