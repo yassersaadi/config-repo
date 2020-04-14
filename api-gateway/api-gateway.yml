@@ -3,6 +3,7 @@ zuul:
   prefix:  /api
   routes:
     technology-service:  /technology/**
+    strip-prefix: false
 
 keycloak:
   auth-server-url: http://localhost:8080/auth/
