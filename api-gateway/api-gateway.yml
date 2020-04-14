@@ -4,7 +4,6 @@ zuul:
   routes:
     technology-service:
       path:  /technology/**
-      stripPrefix: false
 
 keycloak:
   auth-server-url: http://localhost:8080/auth/
