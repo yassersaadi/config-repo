@@ -2,8 +2,9 @@ zuul:
   ignored-services: '*'
   prefix:  /api
   routes:
-    technology-service:  /technology/**
-    stripPrefix: false
+    technology-service:
+      path:  /technology/**
+      stripPrefix: false
 
 keycloak:
   auth-server-url: http://localhost:8080/auth/
