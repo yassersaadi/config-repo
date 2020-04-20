@@ -11,7 +11,7 @@ keycloak:
   resource: api-gateway
   public-client: true
   confidential-port: 0
-  ssl-required: external
+  ssl-required: none
   cors: true
   cors-allowed-methods: "*"
   cors-allowed-headers: "*"
