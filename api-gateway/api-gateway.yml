@@ -4,6 +4,8 @@ zuul:
   routes:
     technology-service:
       path:  /technology/**
+    profile-service:
+      path: /profile/**
 
 keycloak:
   auth-server-url: ${AUTH_SERVER_URL:http://localhost:8080/auth/}
