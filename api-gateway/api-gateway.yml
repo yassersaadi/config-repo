@@ -12,6 +12,9 @@ keycloak:
   realm: testcandidate
   resource: api-gateway
   public-client: true
+  cors: true
+  cors-allowed-methods: "*"
+  cors-allowed-headers: "*"
   confidential-port: 0
   ssl-required: external
   principal-attribute: preferred_username
