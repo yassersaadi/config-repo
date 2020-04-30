@@ -11,7 +11,7 @@ keycloak:
   auth-server-url: ${AUTH_SERVER_URL:http://localhost:8080/auth/}
   realm: testcandidate
   resource: api-gateway
-  public-client: true
+  bearer-only: true
   cors: true
   cors-allowed-methods: "*"
   cors-allowed-headers: "*"
