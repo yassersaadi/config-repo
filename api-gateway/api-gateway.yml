@@ -14,9 +14,6 @@ keycloak:
   public-client: true
   confidential-port: 0
   ssl-required: none
-  cors: true
-  cors-allowed-methods: "*"
-  cors-allowed-headers: "*"
   principal-attribute: preferred_username
 
 
