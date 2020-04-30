@@ -13,10 +13,7 @@ keycloak:
   resource: api-gateway
   public-client: true
   confidential-port: 0
-  cors: true
-  cors-allowed-methods: "*"
-  cors-allowed-headers: "*"
-  ssl-required: none
+  ssl-required: external
   principal-attribute: preferred_username
 
 
